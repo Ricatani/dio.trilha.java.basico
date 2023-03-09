@@ -1,7 +1,7 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
         
-        smartTV smartTV = new smartTV();
+        SmartTV smartTV = new SmartTV();
         System.out.println("TV ligada ? " + smartTV.ligada);
         System.out.println("Canal Atual " + smartTV.canal);
         System.out.println("Volume Atual " + smartTV.volume);
